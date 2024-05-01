@@ -32,7 +32,7 @@ namespace ModelvalidationExample.Models
         public DateTime? ToDate { get; set; }
         public override string ToString()
         {
-            return $" Person name is {name} Email  is :{Email} Phone is :{Phone} passward is :{Passward} ComfirmPassward is :{ConfirmPassward} Prize is : {Price}";
+            return $" Person name is {name} Email  is :{Email} Phone is :{Phone} passward is :{Passward} ComfirmPassward is :{ConfirmPassward} Prize is : {Price} is good";
         }
     }
 }
